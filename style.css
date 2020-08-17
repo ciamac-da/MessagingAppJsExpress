@@ -1,0 +1,146 @@
+body{
+      font-family: 'Fira Code', monospace;
+      background-repeat: no-repeat;
+      height: 100%;
+      background-color: red !important;
+      
+}
+
+.container-fluid{
+      background-color: rgb(221, 48, 42);
+}
+
+#getMsg{
+      margin-top: auto;
+      margin-bottom: auto;
+      margin-left: 5px;
+      margin-right: 30px;
+      border-radius: 25px;
+      background-color: black;
+      padding: 10px;
+      position: relative;
+}
+
+#spantime {
+      position: absolute;
+      right: 10px;
+      bottom: 0;
+      color: white;
+      font-size: 20px;
+}
+
+body footer{
+position: fixed;
+bottom: 0;
+width: 100%;
+text-align: center;
+align-items: center;
+}
+
+#footerfield{
+      background-color: black;
+
+}
+#moreDiv{
+            padding: 0;
+}
+#more{
+border-radius: 25px;
+color: gray;
+}
+#nameDiv{
+      padding: 0;
+      margin-top: 5px;
+
+}
+#input1{
+      border-radius: 25px;
+      border: 2px solid black;
+      font-size: 18px;
+      color: black;
+}
+#writeDiv{
+      padding: 0;
+      margin-top: 5px;
+
+}
+#input2{
+      border-radius: 25px;
+      border: 2px solid black;
+      font-size: 18px;
+      color: black;
+ 
+}
+
+#sendDiv{
+      padding: 0;
+      margin-top: 5px;
+}
+
+#send{
+      border-radius: 25px;
+}
+#output{
+      border-radius: 25px;
+      border: 2px solid black;
+      border-radius: 15px;
+      background-color: gray;
+      position: relative;
+}
+#userImg{
+      width: 35px;
+      height: 35px;
+}
+.dropbtn {
+      background-color: rgb(73, 70, 70);
+      border-radius: 25px;
+      color: white;
+      font-size: 16px;
+      border: none;
+      margin-top: 5px;
+      margin-right: 35px;
+      height: 35px;
+      width: 80px;
+      
+}
+
+.dropup {
+      position: relative;
+      display: inline-block;
+}
+
+.dropup-content {
+      margin-bottom: -11px;
+      border-radius: 25px;
+      display: none;
+      position: absolute;
+      background-color: #f1f1f1;
+      min-width: 160px;
+      bottom: 50px;
+      z-index: 1;
+    }
+    
+    .dropup-content a {
+      color: black;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+    }
+    
+    .dropup-content a:hover {
+          text-decoration: none;
+          border-radius: 25px;
+          color: red;
+          background-color: #ccc}
+    
+    .dropup:hover .dropup-content {
+      display: block;
+    }
+    
+    .dropup:hover .dropbtn {
+      background-color: rgb(58, 53, 53) !important;
+    }
+    ::placeholder {
+      color: black !important;
+      
+    }

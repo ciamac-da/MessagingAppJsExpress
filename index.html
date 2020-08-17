@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script
+  src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+  integrity="sha256-pasqAKBDmFT4eHoN2ndd6lN370kFiGUFyTiUHWhU7k8="
+  crossorigin="anonymous"></script>
+    <link
+      href="https://fonts.googleapis.com/css?family=Fira+Code&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+      integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
+      integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
+      integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+      crossorigin="anonymous"
+    ></script>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Message-App</title>
+  </head>
+  <body>
+    <div class="container-fluid">
+  <div class="row getMsg" id="getMsg">
+    <div class="col-xs-2 myImg" id="myImg">
+      <img src="cia.jpg" alt="" srcset="" class="rounded-circle userImg" id="userImg">
+    </div>
+    <div class="col-xs-9 output"  id="output" >
+    </div>
+      <div class="spantime" id="spantime">time
+      </div>
+  </div>
+
+    </div>
+    <footer>
+      <div class="row" id="footerfield">
+        <div class="dropup col-2">
+          <button class="dropbtn">More..</button>
+          <div class="dropup-content">
+            <a href="#">&#128206; Upload File</a>
+            <a href="#">&#9742; Voice Call</a>
+            <a href="#">&#127909; Video Call</a>
+          </div>
+        </div>
+
+          <div class="col-sm-2 col-xs-2" id="nameDiv">
+            <input
+              id="input1"
+              type="text"
+              autocomplete="off"
+              class="form-control input1"
+              placeholder="&#128101; Enter your Name"
+            />
+          </div>
+          <div class="col-sm-6 col-xs-6" id="writeDiv">
+            <input
+              id="input2"
+              type="text"
+              autocomplete="off"
+              class="form-control input2"
+              placeholder="&#9997; Write your message"
+              
+            />
+          </div>
+            <div class="col-sm-2 col-xs-2" id="sendDiv">
+              <button id="send" type="submit" class="btn btn-dark ml-1 send" onclick="giveMeCurrentTime()">
+                 Send &#10148;
+              </button>
+          </div>
+      </footer>
+    </div>
+    <script src="ajax.js"></script>
+  </body>
+</html>
